@@ -47,7 +47,7 @@
 
 #define SIZE_PTR(p)  ((size_t*)(((char*)(p)) - SIZE_T_SIZE))
 
-typedef int Bool;
+//typedef int Bool;
 #define True 1
 #define False 0
 
@@ -83,7 +83,7 @@ size_t get_block_size(char* _cur_ptr){
   return GET_SIZE(_cur_ptr);
 }
 
-Bool get_block_alloc(char* _cur_ptr){
+int get_block_alloc(char* _cur_ptr){
   return GET_ALLOC(_cur_ptr);
 }
 
