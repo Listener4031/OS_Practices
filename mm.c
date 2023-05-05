@@ -54,7 +54,7 @@
 // size_t : 8 bytes
 // align : 8 bytes 
 
-#define CHUNKSIZE (1 << 12)
+#define CHUNKSIZE (1 << 32)
 #define LEAD_AREA_SIZE (1 << 4) // 16 bytes for lead area
 
 #define GET(p) (*((size_t*)(p)))             // get a size_t type v from addr p
