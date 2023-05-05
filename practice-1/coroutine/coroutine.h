@@ -6,7 +6,7 @@
 #include <stdint.h>
 
 typedef long long cid_t;
-#define MAXN 1000
+#define MAXN 50000
 #define STACK_SIZE (1 << 18)
 
 typedef int Bool;
